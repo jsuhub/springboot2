@@ -13,4 +13,10 @@ public class ZhouXinController {
         return "successful";
 
     }
+    @RequestMapping("zxz")
+    @ResponseBody
+    public String way2(){
+        return "successfulz";
+
+    }
 }
