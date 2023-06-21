@@ -11,4 +11,8 @@ public class yuliangController {
     public String returnName(){
         return "于亮";
     }
+    @RequestMapping("/idf")
+    public String idetifyName(){
+        return "identifing successful!";
+    }
 }
