@@ -13,4 +13,9 @@ public class ZhouXinController {
         return "successful";
 
     }
+    @RequestMapping("zx1")
+    @ResponseBody
+    public String way1(){
+        return "successful2";
+    }
 }
